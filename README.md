@@ -1,4 +1,12 @@
-# SFT-Training-LLM — Supervised Fine-Tuning of Qwen2.5-3B-Instruct
+# SFT-Training-LLM - Supervised Fine-Tuning of Qwen2.5-3B-Instruct
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Qwen](https://img.shields.io/badge/Model-Qwen2.5--3B--Instruct-orange)
+![SFT](https://img.shields.io/badge/Training-SFT-green)
+![Evaluation](https://img.shields.io/badge/Evaluation-AIME%20%7C%20Math--500%20%7C%20GPQA%20%7C%20MMLU-blueviolet)
+![LLaMA Factory](https://img.shields.io/badge/Framework-LLaMA--Factory-lightgrey)
+
+End-to-end supervised fine-tuning and evaluation workflow for improving reasoning behavior in Qwen2.5-3B-Instruct. The repo covers baseline evaluation, full SFT training, benchmark comparison, and data-selection analysis using reproducible LLM tooling.
 
 **Course:** ECE5554 – Trustworthy Machine Learning | Fall 2025  
 **Team Members:** Mack Werner, Gary Ruppert, BJ Janson, Jacob Ramey*  
@@ -17,6 +25,14 @@ This repository contains all code, configuration files, and analysis for **super
 The project demonstrates the full workflow from **baseline evaluation** through **fine-tuning**, followed by **quantitative comparison** across multiple reasoning benchmarks.
 
 Our focus was to strengthen *multi-step mathematical and logical reasoning* without degrading the model’s general knowledge or code generation performance.
+
+## Systems Focus
+
+- Reproducible baseline and fine-tuned evaluation with `lighteval`
+- Full SFT workflow using LLaMA-Factory, Hugging Face Transformers, and TRL
+- Long-context configuration with `bfloat16`, 32k token length, and high GPU memory utilization
+- Reasoning benchmark coverage across math, code, science QA, and general knowledge
+- Data-selection exploration using CIE/perplexity-style filtering for smaller training subsets
 
 ---
 
