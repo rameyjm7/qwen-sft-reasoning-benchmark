@@ -1,4 +1,4 @@
-# SFT-Training-LLM - Supervised Fine-Tuning of Qwen2.5-3B-Instruct
+# qwen-sft-reasoning-benchmark - Supervised Fine-Tuning of Qwen2.5-3B-Instruct
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Qwen](https://img.shields.io/badge/Model-Qwen2.5--3B--Instruct-orange)
@@ -12,7 +12,7 @@ End-to-end supervised fine-tuning and evaluation workflow for improving reasonin
 **Team Members:** Mack Werner, Gary Ruppert, BJ Janson, Jacob Ramey*  
 *Equal Contributors
 
-See our final report here: https://github.com/rameyjm7/SFT-Training-LLM/blob/main/SFT%20Training%20LLM%20Project%20Report.pdf
+See our final report here: https://github.com/rameyjm7/qwen-sft-reasoning-benchmark/blob/main/SFT%20Training%20LLM%20Project%20Report.pdf
 
 Follow the SFT of a LLaMa model here, where our team scored the top result
 https://github.com/reds-lab/Project-Reasoning-SFT-LLM
@@ -148,7 +148,7 @@ Although advanced data selection (LIMOPro) was not fully realized, the results c
 
 ## Links
 
-- **GitHub Repository:** [rameyjm7/SFT-Training-LLM](https://github.com/rameyjm7/SFT-Training-LLM)  
+- **GitHub Repository:** [rameyjm7/qwen-sft-reasoning-benchmark](https://github.com/rameyjm7/qwen-sft-reasoning-benchmark)  
 - **HuggingFace Models:** [BJJ5555/ECE6514_models](https://huggingface.co/BJJ5555/ECE6514_models/tree/main)  
 - **Baseline Tools:** [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)  
 - **Reference Implementation:** [reds-lab/Project-Reasoning-SFT-LLM](https://github.com/reds-lab/Project-Reasoning-SFT-LLM)
